@@ -4,7 +4,8 @@
   "description": "Create a sprite sheet based on spritesmith for Rollup",
   "main": "index.js",
   "scripts": {
-    "test": "ava test/**/*.test.js"
+    "test": "ava test/**/*.test.js",
+    "coverage": "nyc npm test"
   },
   "repository": {
     "type": "git",
@@ -32,6 +33,7 @@
   },
   "devDependencies": {
     "ava": "^0.24.0",
+    "nyc": "^11.4.1",
     "rollup": "^0.55.0"
   }
 }
