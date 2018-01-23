@@ -1,0 +1,37 @@
+{
+  "name": "rollup-plugin-sprite",
+  "version": "0.0.1",
+  "description": "Create a sprite sheet based on spritesmith for Rollup",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava test/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linjinying/rollup-plugin-sprite.git"
+  },
+  "keywords": [
+    "rollup",
+    "rollup-plugin-sprite",
+    "spritesmith",
+    "sprite"
+  ],
+  "author": "narol",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/linjinying/rollup-plugin-sprite/issues"
+  },
+  "homepage": "https://github.com/linjinying/rollup-plugin-sprite#readme",
+  "dependencies": {
+    "gaze": "^1.1.2",
+    "glob": "^7.1.2",
+    "lodash": "^4.17.4",
+    "spritesheet-templates": "^10.2.2",
+    "spritesmith": "^3.3.0",
+    "write": "^1.0.3"
+  },
+  "devDependencies": {
+    "ava": "^0.24.0",
+    "rollup": "^0.55.0"
+  }
+}
