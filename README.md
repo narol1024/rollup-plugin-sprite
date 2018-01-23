@@ -2,7 +2,9 @@
 
 Create a sprite sheet based on spritesmith for Rollup
 
+[![Build Status](https://travis-ci.org/linjinying/rollup-plugin-sprite.svg?branch=master)](https://travis-ci.org/linjinying/rollup-plugin-sprite)
 [![NPM version](https://img.shields.io/npm/v/rollup-plugin-sprite.svg?style=flat)](https://www.npmjs.com/package/rollup-plugin-sprite)
+[![Coverage Status](https://coveralls.io/repos/github/linjinying/rollup-plugin-sprite/badge.svg?branch=master)](https://coveralls.io/github/linjinying/rollup-plugin-sprite?branch=master)
 
 ## installation
 
