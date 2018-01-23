@@ -2,6 +2,8 @@
 
 Create a sprite sheet based on spritesmith for Rollup
 
+[![NPM version](https://img.shields.io/npm/v/brick.js.svg?style=flat)](https://www.npmjs.com/package/rollup-plugin-sprite)
+
 ## installation
 
 ```Shell

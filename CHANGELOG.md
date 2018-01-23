@@ -1,2 +1,2 @@
-# rollup-spritesmith 0.0.1 (2018/01/19)
+# rollup-plugin-sprite 0.0.1 (2018/01/23)
 * Initial release
