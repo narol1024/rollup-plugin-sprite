@@ -1,0 +1,1 @@
+import Home from "./js/home";
