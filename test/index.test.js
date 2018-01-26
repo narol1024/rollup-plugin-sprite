@@ -15,7 +15,7 @@ test("should output sprite image and stylesheet", t => {
         },
         target: {
           image: "./test/samples/src/images/sprite.png",
-          css: "./test/samples/src/sass/sprite.scss"
+          css: "./test/samples/src/sass/sprite.styl"
         },
         cssImageRef: "../images/sprite.png",
         extract: {
