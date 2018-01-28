@@ -1,6 +1,6 @@
 # rollup-plugin-sprite
 
-converts set of images into a spritesheet and SASS/LESS/Stylus mixins based on spritesmith for Rollup.  
+converts set of images into a spritesheet and SASS/LESS/Stylus mixins based on spritesmith for [Rollup.js](https://github.com/rollup/rollup).  
 
 
 [![Build Status](https://travis-ci.org/linjinying/rollup-plugin-sprite.svg?branch=master)](https://travis-ci.org/linjinying/rollup-plugin-sprite)
