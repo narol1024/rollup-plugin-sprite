@@ -5,7 +5,7 @@ converts set of images into a spritesheet and SASS/LESS/Stylus mixins based on s
 
 [![Build Status](https://travis-ci.org/linjinying/rollup-plugin-sprite.svg?branch=master)](https://travis-ci.org/linjinying/rollup-plugin-sprite)
 [![NPM version](https://img.shields.io/npm/v/rollup-plugin-sprite.svg?style=flat)](https://www.npmjs.com/package/rollup-plugin-sprite)
-[![NPM version](https://img.shields.io/npm/dm/rollup-plugin-sprite.svg)](https://www.npmjs.com/package/rollup-plugin-sprite)
+[![NPM package download of month](https://img.shields.io/npm/dm/rollup-plugin-sprite.svg)](https://www.npmjs.com/package/rollup-plugin-sprite)
 [![Coverage Status](https://coveralls.io/repos/github/linjinying/rollup-plugin-sprite/badge.svg?branch=master)](https://coveralls.io/github/linjinying/rollup-plugin-sprite?branch=master)
 
 ## Installation
