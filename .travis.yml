@@ -1,6 +1,9 @@
 language: node_js
 node_js:
   - stable
+ignore:
+  - *.md
+  - LICENSE
 
 script:
   - npm test
