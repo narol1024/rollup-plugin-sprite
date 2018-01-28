@@ -1,0 +1,12 @@
+.custom-icon-hot {
+  background-image: url(../images/sprite.png);
+  background-position: 0px 0px;
+  width: 21px;
+  height: 9px;
+}
+.custom-icon-new {
+  background-image: url(../images/sprite.png);
+  background-position: 0px -9px;
+  width: 21px;
+  height: 9px;
+}

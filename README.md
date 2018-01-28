@@ -1,6 +1,7 @@
 # rollup-plugin-sprite
 
-converts set of images into a spritesheet and SASS/LESS/Stylus mixins based on spritesmith for Rollup
+converts set of images into a spritesheet and SASS/LESS/Stylus mixins based on spritesmith for Rollup.  
+
 
 [![Build Status](https://travis-ci.org/linjinying/rollup-plugin-sprite.svg?branch=master)](https://travis-ci.org/linjinying/rollup-plugin-sprite)
 [![NPM version](https://img.shields.io/npm/v/rollup-plugin-sprite.svg?style=flat)](https://www.npmjs.com/package/rollup-plugin-sprite)
@@ -19,7 +20,7 @@ npm i rollup-plugin-sprite -D
 import spritesmith from "rollup-plugin-sprite";
 
 export default {
-  entry: "src/main.js",
+  input: "src/main.js",
   plugins: [
     spritesmith({
       src: {
@@ -31,7 +32,7 @@ export default {
         css: "./src/ui/sass/sprite.scss"
       },
       cssImageRef: "../images/sprite.png",
-      extract: {
+      output: {
         image: buildImagesDir + "/sprite.png"
       },
       spritesmithOptions: {
@@ -43,17 +44,23 @@ export default {
 ```
 
 ## Config
-- `src` - used to build list of source images
+- `src` - used to build list of source images.
     - `cwd` should be the closest common directory for all source images;
-    - `glob` well... it is a glob
+    - `glob` it is a glob. such as `**/*.png`
 	
-- `target` - generated files
+- `target` - set files path where generated the sprite or stylesheet.
     - `image` - target image filename;
-    - `css` - can be one of the following, `scss`,`less`,`css`
+    - `css` - can be one of the following, `scss`,`less`,`css`,`stylus`,`json`.see [details](https://github.com/twolfson/spritesheet-templates#templates)
 
-- `cssImageRef` - path by whic h generated image will be referenced in API. If target.image is interpolated, cssImageRef should be interpolated the same way too. 	
+- `cssImageRef` - optional, path by whic h generated image will be referenced in API. If target.image is interpolated, cssImageRef should be interpolated the same way too. Default: `../images/sprite.png`
 
-- `spritesmithOptions` - optional. Options for [spritesmith](https://github.com/Ensighten/spritesmith)
+- `output` - optional, set output folder where the sprite or stylesheet will be saved.
+  - `image` - the image file path;
+  - `css` - the stylesheet file path
+
+- `spritesmithOptions` - optional. Options for [spritesmith](https://github.com/Ensighten/spritesmith).
+
+- `customTemplates` - optional. Object with keys and values corresponding to format names and template descriptions respectively. Template description can be either a path/to/template/file.handlebars or template function.
 
 ## License
 
