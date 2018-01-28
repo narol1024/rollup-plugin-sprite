@@ -13,6 +13,7 @@
   },
   "keywords": [
     "rollup",
+    "rollup-plugin",
     "rollup-plugin-sprite",
     "spritesmith",
     "sprite"
