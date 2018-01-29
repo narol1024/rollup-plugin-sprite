@@ -55,9 +55,8 @@ export default {
 - `cssImageRef` - optional, path by whic h generated image will be referenced in API. If target.image is interpolated, cssImageRef should be interpolated the same way too. Default: `../images/sprite.png`
 
 - `output` - optional, set output folder where the sprite or stylesheet will be saved.
-  - `image` - the image file path;
-  - `css` - the stylesheet file path
-
+  - `image` - the image file path
+  
 - `spritesmithOptions` - optional. Options for [spritesmith](https://github.com/Ensighten/spritesmith).
 
 - `customTemplates` - optional. Object with keys and values corresponding to format names and template descriptions respectively. Template description can be either a path/to/template/file.handlebars or template function.
