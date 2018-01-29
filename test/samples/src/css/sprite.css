@@ -1,12 +1,4 @@
-.custom-icon-hot {
-  background-image: url(../images/sprite.png);
-  background-position: 0px 0px;
-  width: 21px;
-  height: 9px;
-}
-.custom-icon-new {
-  background-image: url(../images/sprite.png);
-  background-position: 0px -9px;
-  width: 21px;
+.custom-icon-hot { width: 21px; height: 9px; background-image: url(../images/sprite.png); background-position: 0px 0px; }
+.custom-icon-new { width: 21px; height: 9px; background-image: url(../images/sprite.png); background-position: 0px -9px; }h: 21px;
   height: 9px;
 }

@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-sprite",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Create a sprite sheet based on spritesmith for Rollup",
   "main": "index.js",
   "scripts": {

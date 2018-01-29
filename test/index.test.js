@@ -19,7 +19,8 @@ test("should output sprite image and stylesheet", t => {
         },
         cssImageRef: "../images/sprite.png",
         output: {
-          image: "./test/samples/dist/images/sprite.png"
+          image: "./test/samples/dist/images/sprite.png",
+          css:"./test/samples/dist/scss/sprite.scss"
         }
       })
     ]
@@ -28,8 +29,9 @@ test("should output sprite image and stylesheet", t => {
       fs.existsSync("./test/samples/src/images/sprite.png"),
       "file exists"
     );
-    t.true(fs.existsSync("./test/samples/src/sass/sprite.scss", "file exit"));
+    t.true(fs.existsSync("./test/samples/src/scss/sprite.scss", "file exit"));
     t.true(fs.existsSync("./test/samples/dist/images/sprite.png", "file exit"));
+    t.true(fs.existsSync("./test/samples/dist/scss/sprite.scss", "file exit"));
   });
 });
 
