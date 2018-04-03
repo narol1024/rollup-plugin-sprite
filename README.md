@@ -33,7 +33,7 @@ export default {
       },
       cssImageRef: "../images/sprite.png",
       output: {
-        image: buildImagesDir + "/sprite.png"
+        image: "./dist/images/sprite.png"
       },
       spritesmithOptions: {
         padding: 5
