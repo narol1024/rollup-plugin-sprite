@@ -3,3 +3,4 @@ coverage
 *.log
 .nyc_output
 dist
+package-lock.json
