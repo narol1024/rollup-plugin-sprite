@@ -50,7 +50,8 @@ export default {
 	
 - `target` - set files path where generated the sprite or stylesheet.
     - `image` - target image filename;
-    - `css` - can be one of the following, `scss`,`less`,`css`,`stylus`,`json`.see [details](https://github.com/twolfson/spritesheet-templates#templates)
+    - `css` - target css filename;
+    - `format` - optional, can be one of the following, `scss`,`less`,`css`,`stylus`,`json`, see [details](https://github.com/twolfson/spritesheet-templates#templates).
 
 - `cssImageRef` - optional, path by whic h generated image will be referenced in API. If target.image is interpolated, cssImageRef should be interpolated the same way too. Default: `../images/sprite.png`
 

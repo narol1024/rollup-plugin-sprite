@@ -35,6 +35,35 @@ test("should output sprite image and stylesheet", t => {
   });
 });
 
+test("should output sprite image and texture json", t => {
+  return rollup({
+    input: "./test/samples/src/main.js",
+    plugins: [
+      spritesmith({
+        src: {
+          cwd: "./test/samples/src/images/sprite",
+          glob: "**/*.png"
+        },
+        target: {
+          image: "./test/samples/src/images/sprite.png",
+          css: "./test/samples/src/json/sprite.json",
+          format: 'json_texture'
+        },
+        cssImageRef: "../images/sprite.png",
+        output: {
+          image: "./test/samples/dist/images/sprite.png",
+          css:"./test/samples/dist/json/sprite.json"
+        }
+      })
+    ]
+  }).then(() => {
+    t.true(fs.existsSync("./test/samples/src/images/sprite.png"), "file exists");
+    t.true(fs.existsSync("./test/samples/src/json/sprite.json", "file exist"));
+    t.true(fs.existsSync("./test/samples/dist/images/sprite.png", "file exist"));
+    t.true(fs.existsSync("./test/samples/dist/json/sprite.json", "file exist"));
+  });
+});
+
 test("If set customTemplate option to a template file, should output the custom stylesheet.", t => {
   return rollup({
     input: "./test/samples/src/main.js",
