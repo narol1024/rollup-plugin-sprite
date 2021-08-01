@@ -1,15 +1,18 @@
 {
-  "name": "rollup-plugin-sprite",
+  "name": "@zz5840/rollup-plugin-sprite",
   "version": "0.1.2",
   "description": "Create a sprite sheet based on spritesmith for Rollup",
   "main": "index.js",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
   "scripts": {
     "test": "ava test/**/*.test.js",
     "coverage": "nyc npm test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/linjinying/rollup-plugin-sprite.git"
+    "url": "git+https://github.com/zz5840/rollup-plugin-sprite.git"
   },
   "keywords": [
     "rollup",
